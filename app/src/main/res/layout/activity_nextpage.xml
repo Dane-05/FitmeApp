@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/next"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="73dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnexercise1"
+            android:layout_width="408dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center"
+            android:onClick="btnExer1"
+            android:text="ARM WORKOUT"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25sp"
+            app:backgroundTint="#FF8A80" />
+
+        <Button
+            android:id="@+id/btnexercise2"
+            android:layout_width="408dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center"
+            android:onClick="btnExer2"
+            android:text="BUTT WORKOUT"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25sp"
+            app:backgroundTint="#F4D3DE" />
+
+        <Button
+            android:id="@+id/btnexercise3"
+            android:layout_width="408dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center"
+            android:onClick="btnExer3"
+            android:text="ABS WORKOUT"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25sp"
+            app:backgroundTint="#F3B5AF" />
+
+        <Button
+            android:id="@+id/btnexercise4"
+            android:layout_width="408dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center"
+            android:onClick="btnExer4"
+            android:text="LEG WORKOUT"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25sp"
+            app:backgroundTint="#E49DB5" />
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

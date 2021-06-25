@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/next"
+    android:orientation="vertical"
+    tools:context=".btn1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="73dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titlepage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:layout_marginTop="24dp"
+                android:lineSpacingExtra="8dp"
+                android:text="ABS WORKOUT"
+                android:textColor="#760000"
+                android:textSize="28sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/subtitlepage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:text="Easy Exercises for Beginners"
+                android:textColor="#760000"
+                android:textSize="17sp"/>
+
+            <View
+                android:id="@+id/divpage"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="26dp"
+                android:background="#25293E"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/subtitlepage" />
+
+            <TextView
+                android:id="@+id/intropage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="8dp"
+                android:text="STEPS:"
+                android:textColor="#760000"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divpage" />
+
+            <TextView
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:layout_marginTop="6dp"
+                android:lineSpacingExtra="5dp"
+                android:text="1.	Abdominal Hold. "
+                android:textColor="#000"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif"/>
+
+            <ImageView
+                android:id="@+id/ac"
+                android:layout_width="174dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/abdohold" />
+
+            <TextView
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginTop="40dp"
+                android:text="2.	Scissors."
+                android:textColor="#000"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif"/>
+
+            <ImageView
+                android:id="@+id/td"
+                android:layout_width="174dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/scissors" />
+
+            <TextView
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginTop="40dp"
+                android:text="3.	Bicycle. "
+                android:textColor="#000"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif"
+                app:layout_constraintEnd_toStartOf="@+id/td"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="449dp" />
+
+            <ImageView
+                android:id="@+id/bc"
+                android:layout_width="174dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bicycle"
+                tools:layout_editor_absoluteX="159dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+            <TextView
+                android:id="@+id/four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5dp"
+                android:text="3.	Hold Front Plank. "
+                android:textColor="#000"
+                android:textSize="20sp"
+                app:fontFamily="sans-serif"/>
+
+            <ImageView
+                android:id="@+id/ps"
+                android:layout_width="174dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/frontplank" />
+
+            <Button
+                android:id="@+id/btntry"
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="40dp"
+                android:onClick="enter"
+                android:text="TRY"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                app:backgroundTint="#E64E4E" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
